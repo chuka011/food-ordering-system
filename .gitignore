@@ -5,3 +5,5 @@
 /order-service/order-domain/order-application-service/target/
 /order-service/order-domain/order-domain-core/target/
 /order-service/order-messaging/target/
+
+.idea
