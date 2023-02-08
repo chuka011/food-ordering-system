@@ -8,3 +8,8 @@
 /common/common-domain/target
 .idea
 /infrastructure/docker-compose/volumes/
+/infrastructure/kafka/kafka-model/target/
+/infrastructure/target/
+/infrastructure/kafka/kafka-config-data/target/
+/infrastructure/kafka/kafka-consumer/target/
+/infrastructure/kafka/kafka-producer/target/
