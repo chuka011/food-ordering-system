@@ -13,3 +13,4 @@
 /infrastructure/kafka/kafka-config-data/target/
 /infrastructure/kafka/kafka-consumer/target/
 /infrastructure/kafka/kafka-producer/target/
+/common/common-application/target/
