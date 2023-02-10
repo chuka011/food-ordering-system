@@ -15,3 +15,8 @@
 /infrastructure/kafka/kafka-producer/target/
 /common/common-application/target/
 /customer-service/target/
+/payment-service/payment-container/target/
+/payment-service/payment-dataaccess/target/
+/payment-service/payment-domain/payment-domain-core/target/
+/payment-service/payment-domain/payment-domain-service/target/
+/payment-service/payment-messaging/target/
