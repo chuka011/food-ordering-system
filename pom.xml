@@ -22,6 +22,7 @@
         <module>infrastructure</module>
         <module>infrastructure/kafka</module>
         <module>common/common-application</module>
+        <module>customer-service</module>
     </modules>
 
     <properties>
@@ -109,6 +110,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-logging</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
