@@ -14,7 +14,6 @@ import java.util.UUID;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@IdClass(RestaurantEntityId.class)
 public class RestaurantEntityId implements Serializable {
 
     private UUID restaurantId;

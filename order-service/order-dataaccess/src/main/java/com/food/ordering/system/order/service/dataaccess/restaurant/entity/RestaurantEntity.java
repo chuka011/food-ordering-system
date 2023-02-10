@@ -4,6 +4,7 @@ import lombok.*;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.IdClass;
 import javax.persistence.Table;
 import java.math.BigDecimal;
 import java.util.Objects;
@@ -14,6 +15,7 @@ import java.util.UUID;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@IdClass(RestaurantEntityId.class)
 @Table(name = "order_restaurant_m_view", schema = "restaurant")
 @Entity
 public class RestaurantEntity {
